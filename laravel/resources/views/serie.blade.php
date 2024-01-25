@@ -8,9 +8,40 @@
 </head>
 <body>
     <h1>serietv</h1>
-    @php
-       var_dump($movie); 
-    @endphp
+    <ul>
+
+        @foreach ($movie as $item)
+        <li>
+            <div>
+                <div class="container">
+                    
+                    <div>
+                        {{$item->id}}
+                    </div>
+                    
+                    <div>
+                        {{$item->nome}}
+                    </div>
+                    
+                    <div>
+                        {{$item->nome}}
+                    </div>
+
+                </div>
+            </div>
+        </li>
+    
+    
+        @endforeach
+    </ul>
     <a href="/">pagina iniziales</a>
 </body>
 </html>
+<style>
+    .container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        al
+    }
+</style>

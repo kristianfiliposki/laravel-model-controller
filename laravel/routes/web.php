@@ -5,6 +5,7 @@ use App\Http\Controllers\MoviesController;
 use App\Http\Controllers\HomeController;
 
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
